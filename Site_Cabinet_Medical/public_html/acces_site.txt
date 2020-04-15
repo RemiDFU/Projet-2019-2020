@@ -1,0 +1,17 @@
+
+Parametres d'acces MySQL
+
+Utilisateur: brs3114a
+Mot de passe: Ggt536AC
+
+Base de donnees: brs3114a
+Serveur: localhost
+
+
+Authentification session de site web 
+
+identifiant : iutinfo	
+mot de passe : $iutinfo
+
+
+url: r-info-nacre/~brs3114a

@@ -1,0 +1,116 @@
+/* Authentification */
+
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* Bordered form */
+form {
+    width:10%;
+    
+ 
+    
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  
+  font-style: italic;
+}
+
+
+tr:nth-child(even) {background-color: #f2f2f2;}olor: #f2f2f2;
+}
+
+#connexion input[type=submit] {
+    background-color: #7fa3c0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+#connexion input[type=reset],input[type=submit] {
+	background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+#connexion input[type=submit]:hover;input[type=reset]:hover {
+    background-color: white;
+    color: #7fa3c0;
+    border: 1px solid #7fa3c0;
+}
+
+#connexion input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+#connexion form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#connexion {
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+  }
+
+  #connexion h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
