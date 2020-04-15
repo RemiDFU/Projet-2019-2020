@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+    font-weight: normal;   
+    overflow-x: hidden;
+    min-width: 1483px;
+    background-image: url(Image/image\ de\ fond\ de\ site.jpg);
+    background-color: black;
+    background-attachment: fixed;
+
+}
+
+#bandeau {
+    display: block;
+    width : auto;
+    height : 75px;
+    background : #181c1f;
+    padding: 0 15% 0 15%;
+    font-size: 20px;
+}
+
+#logo{
+    float: left;
+}
+
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#menu-deroulant {
+/* on centre le menu dans la page */
+    text-align: center;
+    float: left;
+}
+
+#menu-deroulant li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#menu-deroulant ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+}
+
+#menu-deroulant > li {
+    margin-top: 15px;
+}
+
+
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin: 0 0 0 30px;
+    padding:8px 32px;
+    background-color:#181c1f;
+    border-bottom: 3px solid #de8d32;
+}
+
+#menu-deroulant ul {
+    display: none;
+    position: absolute;
+    text-align: left;
+    z-index: 1000;
+}
+
+#menu-deroulant li:hover ul {
+    left: auto;
+    display: block;
+}
+
+#page{
+    height: 1000px;
+    width: auto;
+    margin: 0 15% 0 15%;
+    background: #000000a8;
+    padding: 35px;
+}
+
+footer {
+    clear: both;
+    color: #fff;
+    background-color: #181c1f;
+    height: auto;
+    font-size: 14px;
+    padding: 5px 15% 5px 15%;
+}
+
+#Copy1, #Copy2, #Copy3{
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    color: #de8d32;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#titreFooter{
+    font-size: 20px;
+    line-height: 200%;
+}
+

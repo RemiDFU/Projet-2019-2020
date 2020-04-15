@@ -1,0 +1,92 @@
+p
+{
+    color: grey; /*Phrase introduction en gris*/
+
+}
+.TitreDutexte
+{
+	color: green; /*Titre en vert*/
+	font-size: xx-large; 
+}
+
+@font-face { /* Définition d'une nouvelle police */
+	font-family: 'Ariale'; 
+	src: url('Arial.woff') format('woff'),  
+		 url('Arial.svg') format('svg');
+	
+}
+*
+{
+	font-family: 'Ariale', Arial; 
+
+}
+.NombreImportant 
+{
+	text-decoration: underline;
+}
+.NombreImportant2
+{
+	font-size: 1.0em; 
+}
+.TexteEnGras
+{
+	font-weight: bold;
+}	
+body
+{ 
+	
+	background-image: url("https://i.ytimg.com/vi/0_jNjpVxUt0/maxresdefault.jpg");
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+}
+p
+{
+    border-radius: 10px;
+	background-color: blue;
+}
+a:hover 
+{ 
+	text-decoration: underline;
+	color: pink;
+}
+p
+{
+	 width: 250px;
+	 height: 110px;
+	 overflow: auto;
+	 box-shadow: 10px,10px,10px rgb(147,174,255)inset;
+     border: 1px solid black;
+     text-align: justify;
+     padding: 15px;
+     margin: 50px; /* Marge extérieure de 50px (on peut utiliser (margin left,bottom,right,top */ 
+}
+#conteneur
+{
+	padding-bottom: 15px;
+	padding-top: 1px;
+	background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    height: 5px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
+}
+#navigation
+{
+	padding-bottom: 15px;
+	padding-top: 1px;
+	background-color:  rgb(19,79,255);
+    display: flex;
+    justify-content: space-center;
+    height: 30px;
+}	
+.rubrique
+{	
+	padding:70px;
+}	
+.imageflo
+{
+	float:left;
+}	
+.GrosseImage
+{
+	padding:50px;
+}

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+    font-weight: normal;
+    color:aliceblue;
+    background-image: url(Image/image\ de\ fond\ de\ site.jpg);
+    background-color: black;
+    background-attachment: fixed;
+    min-width: 800px;
+}
+
+#logo {
+    color: aliceblue;
+    text-decoration: none;
+    float: left;
+    margin-top: 25px;
+    margin-left: 7%;
+    position: fixed;
+
+}
+
+a {
+    color:inherit;
+    text-decoration: none;
+    transition: ease .5s;
+    text-decoration-color: transparent;
+    line-height: 15px;
+
+}
+
+li a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(243, 204, 75); 
+}
+
+#menu{
+    color: aliceblue;
+    width: 80%;
+    float: right;
+}
+
+ul{
+    padding: 0;
+    margin-top: 28px;
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+}
+
+li{
+    display: inline;
+    margin-left: 3%;
+    font-size: 14px;
+}
+
+#bandeau{
+    background-color: #181c1f;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+}
+
+main {
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 75px;
+    width: 65%;
+    background-color: #000000a8;
+    height: 1000px;
+    clear: both;
+    padding: 35px;
+    font-size: 20px;
+}
+
+footer {
+    clear: both;
+    color: #fff;
+    background-color: #181c1f;
+    height: auto;
+    font-size: 14px;
+    padding: 5px 15% 5px 15%;
+}
+
+#Copy1, #Copy2, #Copy3{
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    color: red;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#titreFooter{
+    font-size: 20px;
+    line-height: 200%;
+}
+
+#LogoUT3{
+    width: auto;
+    height: auto;
+}
